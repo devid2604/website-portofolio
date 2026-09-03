@@ -7,8 +7,22 @@
     </html>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact informatie</title>
+    <title>Blog</title>
+
     <style>
+        @keyframes ademen {
+            0% {
+                background-color: rgb(255, 168, 168);
+            }
+
+            50% {
+                background-color: rgb(145, 0, 0);
+            }
+
+            100% {
+                background-color: rgb(255, 33, 33);
+            }
+        }
         div {
             border: 1px solid black;
             height: 75px;
@@ -18,7 +32,7 @@
         }
 
         h1 {
-            font-family: 'JetBrains Mono', sans-serif;
+            font-family: 'JetBrains Mono', Georgia, 'Times New Roman', Times, serif;
         }
 
         header {
@@ -40,8 +54,9 @@
             text-decoration: none;
         }
 
-        
+
         li a:hover {
+            animation: ademen 1s infinite;
             background-color: #555555;
             color: white;
         }
@@ -53,21 +68,46 @@
 
     <header>
         <div>
-            <title>Contact informatie</title>
-            <h1>Contact informatie</h1>
+            <title>Blog Pagina</title>
+            <h1>Blog Pagina</h1>
         </div>
         <ul>
             <li><a onclick="window.location.href='index.html'">Home</a></li>
             <li><a onclick="window.location.href='blog.html'">Blog</a></li>
-            <li><a onclick="window.location.href='contact.html'">Contact</a></li>
             <li><a onclick="window.location.href='about.html'">About</a></li>
+            <li><a onclick="window.location.href='contact.html'">Contact</a></li>
+
         </ul>
     </header>
-    <h2>Over de blog</h2>
+    <h3>Over de blog</h3>
     <p>Welkom op mijn blog! Hier deel ik mijn ervaringen en kennis over webontwikkeling.</p>
-    <h2>Laatste posts</h2>
-    <p><h3>Hier komen de laatste blogposts te staan.</p></h3>
-    <p>Simpele website gemaakt!</p>
+    <h3>Laatste posts</h3>
+    <p>Hier komen de laatste blogposts te staan.</p>
+    <section>
+        <h3>Waarom heb ik door ict opleiding gekozen?</h3>
+        <p>Ik heb de opleiding ict gekozen omdat ik geïnteresseerd ben in technologie en computers
+            en coderen leek me het allerleukste technische richting om in te leren en in te verdiepen.</p>
+    </section>
+
+    <section>
+        <h3>*Section vs article*
+    </section>
+    </h3>
+    <p>Meningen van 3 verschillende bronnen</p>
+    <p><b>W3Schools</b></p>
+    <p>In de praktijk worden beide varianten doorelkaar gebruikt moeten.</p>
+    <p><b>W3C</b></p>
+    <p>Een article is een onhankelijke herbruikbare element, terwijl een section een thematische groepering is.</p>
+    <p><b>HTML Doctor</b></p>
+    <p> gebruik section als basis wanneer je een overzichtpagina bouwt die fungeert als verzamelbak voor losse, op je
+        staande artikelen</p>
+    <p>gebruik article wanneer je een specifieke hoofddocument schrijft dat je onderverdeelt in opeenvolgende,
+        opeenvolgende, thamtische hoodfstukken.</p>
+    <p><b>Mij mening</b></p>
+    <p>Ik vind persoonlijk section chiller element om te gebruiken, omdat ik die meer onthoud dan de article element.
+    </p>
+    </section>
+
 </body>
 
 

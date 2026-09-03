@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <html lang="nl">
+
+    </html>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact informatie</title>
+
+    <style>
+        @keyframes ademen {
+            0% {
+                background-color: rgb(255, 250, 145);
+            }
+
+            50% {
+                background-color: rgb(152, 155, 0);
+            }
+
+            100% {
+                background-color: rgb(238, 255, 0);
+            }
+        }
+
+        div {
+            border: 1px solid black;
+            height: 75px;
+            width: 99%;
+            background-color: rgb(238, 255, 0);
+            padding: 6px;
+        }
+
+        h1 {
+            font-family: 'JetBrains Mono', Georgia, 'Times New Roman', Times, serif;
+        }
+
+        header {
+            background-color: rgb(253, 255, 139);
+            padding: 5px;
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        li a {
+            display: block;
+            color: black;
+            padding: 8px 16px;
+            text-decoration: none;
+        }
+
+
+        li a:hover {
+            animation: ademen 1s infinite;
+            background-color: #555555;
+            color: white;
+        }
+    </style>
+</head>
+
+<body style="background-color:lightcyan;">
+
+
+    <header>
+        <div>
+            <title>Dashboard</title>
+            <h1>Dashboard</h1>
+        </div>
+        <ul>
+            <li><a onclick="window.location.href='index.html'">Home</a></li>
+            <li><a onclick="window.location.href='blog.html'">Blog</a></li>
+            <li><a onclick="window.location.href='dashboard.html'">Dashboard</a></li>
+            <li><a onclick="window.location.href='about.html'">About</a></li>
+            <li><a onclick="window.location.href='contact.html'">Contact</a></li>
+
+        </ul>
+    </header>
+    <!DOCTYPE html>
+    <html lang="nl">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>HZ HBO-ICT - Examenplanning Leerjaar 1</title>
+        <style>
+            table {
+                width: 100%;
+                border-collapse: collapse;
+                font-family: Arial, sans-serif;
+                margin: 20px 0;
+            }
+
+            th,
+            td {
+                border: 1px solid #000000;
+                padding: 10px;
+                text-align: left;
+            }
+
+            th {
+                background-color: #effc34;
+                color: rgb(0, 0, 0);
+            }
+
+            tr:nth-child(5),
+            tr:nth-child(12) {
+                background-color: #fa1d1d;
+            }
+
+            .quartile-row {
+                background-color: #b2b2b2;
+                font-weight: bold;
+            }
+
+            tfoot {
+                font-weight: bold;
+                background-color: #29ff50;
+            }
+        </style>
+
+    <body>
+
+        <table>
+            <caption>Mijn HZ ICT Examenplanning & Voortgang (Leerjaar 1)</caption>
+            <thead>
+                <tr>
+                    <th>Quartile</th>
+                    <th>HBO ICT (Course)</th>
+                    <th>description</th>
+                    <th>Credits (EC)</th>
+                    <th>Cijfer</th>
+                </tr>
+            </thead>
+            <tbody>
+
+                <tr>
+                    <td>Q1</td>
+                    <td>Programme- & Career Orientation</td>
+                    <td>In this course, you will discover your motivation for IT and set your goals for learning and
+                        growing as an IT professional.</td>
+                    <td>5.0</td>
+                    <td>5.8</td>
+                </tr>
+                <tr>
+                    <td>Q1</td>
+                    <td>Programming Basics</td>
+                    <td>In this course, you will learn the basics of programming using JavaScript. You will learn the
+                        structure of a software
+                        application and the different ways to control the flow.</td>
+                    <td>5.0</td>
+                    <td>6.2</td>
+                </tr>
+                <tr>
+                    <td>Q1</td>
+                    <td>Computer Science Basics</td>
+                    <td>In this course, you will learn the basics of what makes a computer function. This knowledge will
+                        be the foundation for all
+                        computer-related learning</td>
+                    <td>5.0</td>
+                    <td>5.6</td>
+                </tr>
+
+
+                <tr>
+                    <td>Q2</td>
+                    <td>Object-Oriented Programming</td>
+                    <td>In this course, you will continue learning the basics of programming, but using TypeScript as
+                        your introduction into
+                        Object Oriented Programming. You will use these principles to develop a basic game engine and
+                        develop small games.</td>
+                    <td>5.0</td>
+                    <td>6.6</td>
+                </tr>
+                <tr>
+                    <td>Q2</td>
+                    <td>Agile and Team Management
+                        Course </td>
+                    <td>In this course, you will learn how an IT project is managed and operates indiviudally as well as
+                        within a team.</td>
+                    <td>5.0</td>
+                    <td>5.5</td>
+                </tr>
+                <tr>
+                    <td>Q2</td>
+                    <td> Project: Foundations
+                    </td>
+                    <td>In this course, you will complete your first project for a given target audience, primary school
+                        children. You will develop
+                        an educational game using stakeholholder and what you learnt so far.</td>
+                    <td>5.0</td>
+                    <td>6.3</td>
+                </tr>
+
+
+                <tr>
+                    <td>Q3</td>
+                    <td>Software Engineering Basics</td>
+                    <td>In this course, you will learn the foundations of sofware engineering. You will use architecture
+                        and design patterns to
+                        develop robust, sustainable software.</td>
+                    <td>5.0</td>
+                    <td>6.6</td>
+                </tr>
+                <tr>
+                    <td>Q3</td>
+                    <td>Foundations of Data
+                    </td>
+                    <td>In this course, you will be introduced to the data life cycle. You will learn to design
+                        relational databases using SQL and
+                        apply CRISP-DM principles to assess and clean data using Python, bridging the gap between
+                        software development and
+                        data science.
+                    </td>
+                    <td>5.0</td>
+                    <td>6.9</td>
+                </tr>
+                <tr>
+                    <td>Q3</td>
+                    <td>quirements Modelling</td>
+                    <td>In this course, you will learn to elicitation and requirements modelling techniques to describe
+                        what is needed from a
+                        software project.</td>
+                    <td>5.0</td>
+                    <td>7.1</td>
+                </tr>
+
+
+                <tr>
+                    <td>Q4</td>
+                    <td>Web Application Development
+                        Course i</td>
+                    <td>In this course, you will use PHP to develop a web application framework from scratch. You will
+                        use your knowledge from
+                        software engineering as well as data science to build a industry-standard framework.</td>
+                    <td>5.0</td>
+                    <td>6.8</td>
+                </tr>
+                <tr>
+                    <td>Q4</td>
+                    <td>Data Science Basics
+                    </td>
+                    <td>In this course, you will be introduced to the workflow of a Data Scientist using the CRISP-DM
+                        framework. Building on
+                        your data preparation skills, you will perform exploratory data analysis (EDA)to find patterns
+                        and use Python to build
+                        and evaluate baseline and basic regression and classification models.
+                    </td>
+                    <td>5.0</td>
+                    <td>5.8</td>
+                </tr>
+                <tr>
+                    <td>Q4</td>
+                    <td>Applied Client Solutions</td>
+                    <td>In this course, you will work in a team to build a solution for a given client. You will analyse
+                        their problem, design and
+                        realise an appropriate solution. You will use an agile project management processes to manage
+                        your project.
+                    </td>
+                    <td>5.0</td>
+                    <td>4.9</td>
+                </tr>
+
+
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3">Totale Studiepunten Jaar 1</td>
+                    <td>50.0 EC</td>
+                    <td>6.2</td>
+                </tr>
+            </tfoot>
+        </table>
+
+    </body>
+
+
+    </html>

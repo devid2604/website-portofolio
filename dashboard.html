@@ -8,72 +8,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact informatie</title>
-
-    <!--text style, kleuren en effecten-->
-    <style>
-        @keyframes ademen {
-            0% {
-                background-color: rgb(255, 250, 145);
-            }
-
-            50% {
-                background-color: rgb(152, 155, 0);
-            }
-
-            100% {
-                background-color: rgb(238, 255, 0);
-            }
-        }
-
-        div {
-            border: 1px solid black;
-            height: 75px;
-            width: 99%;
-            background-color: rgb(238, 255, 0);
-            padding: 6px;
-        }
-
-        h1 {
-            font-family: 'JetBrains Mono', Georgia, 'Times New Roman', Times, serif;
-        }
-
-        header {
-            background-color: rgb(253, 255, 139);
-            padding: 5px;
-            text-align: center;
-        }
-
-        ul {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-        }
-
-        li a {
-            display: block;
-            color: black;
-            padding: 8px 16px;
-            text-decoration: none;
-        }
+    <link rel="stylesheet" href="style.css">
 
 
-        li a:hover {
-            animation: ademen 1s infinite;
-            background-color: #555555;
-            color: white;
-        }
-    </style>
 </head>
 
 <body style="background-color:lightcyan;">
 
     <!--buttons-->
-    <header>
-        <div>
+    <header id="header-dashboard">
+        <div id="header-dashboard-pagina">
             <title>Dashboard</title>
             <h1>Dashboard</h1>
         </div>
-        <ul>
+        <ul id="nav-dashboard">
             <li><a onclick="window.location.href='index.html'">Home</a></li>
             <li><a onclick="window.location.href='blog.html'">Blog</a></li>
             <li><a onclick="window.location.href='dashboard.html'">Dashboard</a></li>
@@ -89,50 +37,14 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>HZ HBO-ICT - Examenplanning Leerjaar 1</title>
-
-            <!--kleuren voor de tabellen-->
-        <style>
-            table {
-                width: 100%;
-                border-collapse: collapse;
-                font-family: Arial, sans-serif;
-                margin: 20px 0;
-            }
-
-            th,
-            td {
-                border: 1px solid #000000;
-                padding: 10px;
-                text-align: left;
-            }
-
-            th {
-                background-color: #effc34;
-                color: rgb(0, 0, 0);
-            }
-
-            tr:nth-child(5),
-            tr:nth-child(12) {
-                background-color: #fa1d1d;
-            }
-
-            .quartile-row {
-                background-color: #b2b2b2;
-                font-weight: bold;
-            }
-
-            tfoot {
-                font-weight: bold;
-                background-color: #29ff50;
-            }
-        </style>
+        <link rel="stylesheet" href="style.css">
 
     <body>
 
         <table>
-            <caption>Mijn HZ ICT Examenplanning & Voortgang (Leerjaar 1)</caption>
+            <caption><b>Mijn HZ ICT Examenplanning & Voortgang (Leerjaar 1)</b></caption>
 
-                <!--tabellen-->
+            <!--tabellen-->
             <thead>
                 <tr>
                     <th>Quartile</th>

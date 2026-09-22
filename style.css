@@ -27,6 +27,7 @@ h1 {
 
 #header-blog {
     background-color: rgb(255, 99, 99);
+    border: 1px solid black;
     padding: 5px;
     text-align: center;
 }
@@ -341,4 +342,85 @@ h1 {
     animation: ademen 1s infinite;
     background-color: #9df09d;
     color: white;
+}
+
+body {
+   background-color:lightcyan;
+    color:#000000;
+}
+
+header {
+    position: relative;
+}
+
+header button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+button {
+    cursor: pointer;
+}
+
+
+/* darkmode button voor de hele website  */
+
+.dark-mode {
+    background-color: #333333;
+    color: #e6e6e6;
+}
+
+.dark-mode #header-index,
+.dark-mode #header-index-pagina,
+.dark-mode #header-pagina,
+.dark-mode #header-blog,
+.dark-mode #header-about,
+.dark-mode #header-about-pagina,
+.dark-mode #header-contact,
+.dark-mode #header-contact-pagina,
+.dark-mode #header-dashboard,
+.dark-mode #header-dashboard-pagina {
+    background-color: #333333;
+}
+
+.dark-mode h1,
+.dark-mode h2,
+.dark-mode h3,
+.dark-mode h4,
+.dark-mode p {
+    color: #ffffff;
+}
+
+.dark-mode li a {
+    color: #ffffff;
+}
+
+.dark-mode a {
+    color: #7fb3ff;
+}
+
+.dark-mode th,
+.dark-mode td {
+    border-color: #555555;
+}
+
+.dark-mode th {
+    background-color: #444444;
+    color: #ffffff;
+}
+
+.dark-mode td {
+    background-color: #222222;
+}
+
+.dark-mode tr:nth-child(5) td,
+.dark-mode tr:nth-child(12) td {
+    background-color: #7a1f1f;
+    
+}
+
+.dark-mode tfoot {
+    background-color: #1f5f2f;
+    color: #ffffff;
 }

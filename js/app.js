@@ -1,5 +1,5 @@
 /**
- * voor darkbutton en verzorgt dat darkmodes blijft wanneer je van menu verandert
+ * voor darkbutton en verzorgt dat darkmodes blijft wanneer je van menu verandert.
  */
 
 function toggleDarkMode() {

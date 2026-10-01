@@ -60,6 +60,42 @@ h4 {
 
 }
 
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 20px;
+    padding: 20px;
+}
+.swot { 
+    background-color: #f83e3e;
+    border: 1.5px solid #000000;
+    padding: 20px;
+    text-align: center;
+    color: #1a1a1a;
+}
+.strengths {
+  background-color: #E8F5E9;
+  border-left: 5px solid #2E7D32;
+}
+
+.weaknesses {
+  background-color: #FFEBEE;
+  border-left: 5px solid #C62828;
+}
+
+.opportunities {
+  background-color: #E3F2FD;
+  border-left: 5px solid #1565C0;
+}
+
+.threats {
+  background-color: #FFFDE7;
+  border-left: 5px solid #FBC02D;
+}
+
+
+
 /* about */
 
 @keyframes ademen-about {
@@ -276,6 +312,9 @@ tr:nth-child(5),
 tr:nth-child(12) {
     background-color: #fa1d1d;
 }
+tr:nth-child(13) {
+    background-color: #29ff50;
+}
 
 .quartile-row {
     background-color: #b2b2b2;
@@ -400,6 +439,7 @@ button {
     color: #7fb3ff;
 }
 
+/* darkmode voor dashboard*/
 .dark-mode th,
 .dark-mode td {
     border-color: #555555;
@@ -414,6 +454,7 @@ button {
     background-color: #222222;
 }
 
+
 .dark-mode tr:nth-child(5) td,
 .dark-mode tr:nth-child(12) td {
     background-color: #7a1f1f;
@@ -421,6 +462,27 @@ button {
 }
 
 .dark-mode tfoot {
+    background-color: #222222;
+}
+.dark-mode tr:nth-child(13) td {
+     background-color: #1f5f2f;
+}
+
+/* darkmode voor swot*/
+
+.dark-mode .strengths {
     background-color: #1f5f2f;
-    color: #ffffff;
+    border-left: 5px solid #2E7D32;
+}
+.dark-mode .weaknesses {
+    background-color: #7a1f1f;
+    border-left: 5px solid #C62828;
+}
+.dark-mode .opportunities {
+    background-color: #1f2f5f;
+    border-left: 5px solid #1565C0;
+}
+.dark-mode .threats {
+    background-color: #5f5f1f;
+    border-left: 5px solid #FBC02D;
 }

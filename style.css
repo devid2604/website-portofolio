@@ -486,3 +486,212 @@ button {
     background-color: #5f5f1f;
     border-left: 5px solid #FBC02D;
 }
+
+/* why-it */
+
+@keyframes ademen-why {
+    0% {
+        background-color: rgb(168, 240, 226);
+    }
+
+    50% {
+        background-color: rgb(0, 100, 82);
+    }
+
+    100% {
+        background-color: rgb(0, 168, 138);
+    }
+}
+
+#header-why {
+    border: 1px solid black;
+    width: 99%;
+    background-color: rgb(168, 240, 226);
+    padding: 6px;
+    text-align: center;
+}
+
+#header-why-pagina {
+    border: 1px solid black;
+    background-color: rgb(0, 168, 138);
+    padding: 5px;
+    text-align: center;
+}
+
+#nav-why {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#nav-why li a {
+    display: block;
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+#nav-why li a:hover {
+    animation: ademen-why 1s infinite;
+    background-color: #555555;
+    color: white;
+}
+
+/* grid */
+
+.why-kleur-1 {
+    background-color: #E0F2F1;
+    border-left: 5px solid #00897B;
+}
+
+.why-kleur-2 {
+    background-color: #E0F7FA;
+    border-left: 5px solid #00ACC1;
+}
+
+.why-kleur-3 {
+    background-color: #E8F5E9;
+    border-left: 5px solid #2E7D32;
+}
+
+.why-kleur-4 {
+    background-color: #E3F2FD;
+    border-left: 5px solid #1565C0;
+}
+
+.dark-mode .why-kleur-1 {
+    background-color: #1f4f4a;
+    border-left: 5px solid #00897B;
+}
+
+.dark-mode .why-kleur-2 {
+    background-color: #1f4a4f;
+    border-left: 5px solid #00ACC1;
+}
+
+.dark-mode .why-kleur-3 {
+    background-color: #1f5f2f;
+    border-left: 5px solid #2E7D32;
+}
+
+.dark-mode .why-kleur-4 {
+    background-color: #1f2f5f;
+    border-left: 5px solid #1565C0;
+}
+
+/* goals */
+
+@keyframes ademen-goals {
+    0% {
+        background-color: rgb(187, 199, 255);
+    }
+
+    50% {
+        background-color: rgb(40, 55, 160);
+    }
+
+    100% {
+        background-color: rgb(70, 90, 224);
+    }
+}
+
+#header-goals {
+    border: 1px solid black;
+    width: 99%;
+    background-color: rgb(187, 199, 255);
+    padding: 6px;
+    text-align: center;
+}
+
+#header-goals-pagina {
+    border: 1px solid black;
+    background-color: rgb(70, 90, 224);
+    padding: 5px;
+    text-align: center;
+}
+
+#nav-goals {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#nav-goals li a {
+    display: block;
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+#nav-goals li a:hover {
+    animation: ademen-goals 1s infinite;
+    background-color: #555555;
+    color: white;
+}
+
+/* direction */
+
+@keyframes ademen-direction {
+    0% {
+        background-color: rgb(255, 182, 236);
+    }
+
+    50% {
+        background-color: rgb(120, 0, 90);
+    }
+
+    100% {
+        background-color: rgb(176, 0, 132);
+    }
+}
+
+#header-direction {
+    border: 1px solid black;
+    width: 99%;
+    background-color: rgb(255, 182, 236);
+    padding: 6px;
+    text-align: center;
+}
+
+#header-direction-pagina {
+    border: 1px solid black;
+    background-color: rgb(176, 0, 132);
+    padding: 5px;
+    text-align: center;
+}
+
+#nav-direction {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#nav-direction li a {
+    display: block;
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+#nav-direction li a:hover {
+    animation: ademen-direction 1s infinite;
+    background-color: #555555;
+    color: white;
+}
+
+/* darkmode voor de nieuwe pagina's */
+
+.dark-mode #header-why,
+.dark-mode #header-why-pagina,
+.dark-mode #header-goals,
+.dark-mode #header-goals-pagina,
+.dark-mode #header-direction,
+.dark-mode #header-direction-pagina {
+    background-color: #333333;
+}
+
+/* grid solid */
+
+.grid {
+    border: 1px solid #ccc;
+}
